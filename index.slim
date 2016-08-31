@@ -17,7 +17,7 @@ header.animated.bounce
           li
             a href="#myvideos" My Videos
           li
-            a href="#howtocontactme" How to Contact Me
+            a href="#howtocontactme" Contact Me
 main.fadeIn.animated
   .parallax-container
     .parallax
@@ -39,3 +39,8 @@ main.fadeIn.animated
   .black.center.valign-wrapper(style="height:100px")
    .container
       .flow-text.white-text Thank you for Visiting!
+javascript:
+  $(document).ready(function(){
+        $('.parallax').parallax();
+        $('.carousel').carousel();
+  });
