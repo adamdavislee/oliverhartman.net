@@ -13,11 +13,7 @@ header.animated.bounce
           li
             a.waves-effect.waves-light href="#whoiam" Who I Am
           li
-            a.waves-effect.waves-light href="#myservices" My Services
-          li
-            a.waves-effect.waves-light href="#myvideos" My Videos
-          li
-            a.waves-effect.waves-light href="#howtocontactme" Contact Me
+            a.waves-effect.waves-light href="#whatimupto" What I'm Up To
 main.fadeIn.animated
   .parallax-container
     .parallax
@@ -26,7 +22,7 @@ main.fadeIn.animated
    .container
     #whoiam.section.scrollspy
      h4.center.white-text Who I Am
-     p.flow-text.white-text.z-depth-2.center I am a professional bass player, who enjoys performing in concert.
+     h3.flow-text.white-text.center Awesome!!!
     .slider
       ul.slides
         li
@@ -41,12 +37,37 @@ main.fadeIn.animated
   .parallax-container
     .parallax
      img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/13346535_1029084587181624_870133485932652699_n.jpg?oh=ba5f8e5df63713e0f6b7436ebffe9847&oe=58410517"
+  .blue-grey.darken-4
+   br
+   .container
+     h4#whatimupto.center.white-text What I'm Up To
+     p.flow-text.white-text.center Here's What I've been doing recently
+     ul.collapsible.popout.z-depth-3
+       li
+        .collapsible-header.active.black.white-text
+          i.material-icons place
+          |I Just Did This
+        .collapsible-body.black
+          p.white-text A lot of cool stuff like: foo, bar, fizz
+       li
+        .collapsible-header.active.black.white-text
+          i.material-icons place
+          |And This
+        .collapsible-body.black
+          p.white-text A lot of other cool stuff like: foo, bar, fizz
+       li
+        .collapsible-header.active.black.white-text
+          i.material-icons place
+          |And This
+        .collapsible-body.black
+          p.white-text A lot of other cool stuff like: foo, bar, fizz
+   br
   .black.center.valign-wrapper(style="height:100px")
    .container
       .flow-text.white-text Thank you for Visiting!
 javascript:
   $(document).ready(function(){
         $('.parallax').parallax();
-        $('.carousel').carousel();
+        $('.collapsible').collapsible();
         $('.slider').slider({full_width: true});
   });
