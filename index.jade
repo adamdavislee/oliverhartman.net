@@ -1,0 +1,103 @@
+link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+link(href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css', media='screen,projection', rel='stylesheet', type='text/css')
+link(href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css', rel='stylesheet')
+script(src='https://code.jquery.com/jquery-2.1.1.min.js', type='text/javascript')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js', type='text/javascript')
+script(src='main.js')
+head
+	link(href='http://www.iconj.com/ico/a/o/aoe5dw18nj.ico', rel='icon')
+header
+	.navbar-fixed
+		nav.black
+			.nav-wrapper.container
+				a.center.brand-logo.waves-effect.waves-light(href='#') Oliver Hartman [beta]          
+				ul#nav-mobile.left.hide-on-med-and-down
+					li
+						a.waves-effect.waves-light(href='#whoiam') Who I Am
+					li
+						a.waves-effect.waves-light(href='#whatimupto') What I'm Up To
+				ul#nav-mobile.right.hide-on-med-and-down
+					li
+						a.waves-effect.waves-light(href='#videos') Videos
+					li
+						a.waves-effect.waves-light(href='#wheretofindme') Where to Find Me
+main.fadeIn.animated
+	.parallax-container
+		.parallax
+			img(src='https://scontent.fsjc1-3.fna.fbcdn.net/v/t1.0-9/12191571_908945952528822_4845128212895820607_n.jpg?oh=fded8c1ca9a1ad8f28f411f57d9b908f&oe=586998E9')
+	.blue-grey.darken-4
+		.container
+			#whoiam.section
+				h4.center.white-text
+					| Who I Am
+				h3.flow-text.white-text.center
+					| Oliver Hartman is a double bassist who teaches and performs throughout various regions of the Northwest. Oliver performs regularly throughout the season with the City Opera Ballet in Bellevue, WA, as well as Wenatchee Valley Symphony Orchestra. He is also a substitute double bassist with various local symphonies. He recently performed the Koussevitsky Double Bass Concerto with the Washington Idaho Symphony as an honor for winning its Young Artist Competition.
+				h3.flow-text.white-text.center
+					| Oliver is excited about his new position as a Teaching Artist with Yakima Music en Accion, where he works with students of many ages in several realms of music, including orchestra sectionals, chamber ensemble, group technique classes, and music theory. He recently engaged in a similar position as double bass faculty at the Evergreen Music Festival. Oliver looks forward to expanding his expertise in the field of teaching and plans to build his own private studio in the future.
+				h3.flow-text.white-text.center
+					| He is currently finishing his studies at Central Washington University where he intends to earn a Bachelor of Music. Besides teaching and performing, Oliver has interests in music therapy and intends to engage in studies and work within the field in the future
+	.blue-grey.darken-4
+		br
+		.container
+			h4#whatimupto.center.white-text
+				| What I'm Up To
+			ul.collapsible.popout.z-depth-3
+				li
+					.center.collapsible-header.active.black.white-text
+						| Started Working at Yakima Music en Acción
+					.center.collapsible-body.black
+						iframe(src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Foliver.hartman.98%2Ftimeline%2Fstory%3Fut%3D32%26wstart%3D-2051193600%26wend%3D2147483647%26hash%3D1127974997292582%26pagefilter%3D3%26ustart%3D1&width=500', width='500', height='249', style='border:none;overflow:hidden', scrolling='no', frameborder='0', allowtransparency='true')
+				li
+					.center.collapsible-header.black.white-text
+						| Day Tromp Bass Quartet
+					.center.collapsible-body.black
+						iframe(src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Foliver.hartman.98%2Fposts%2F1037461553010594&width=500', width='500', height='354', style='border:none;overflow:hidden', scrolling='no', frameborder='0', allowtransparency='true')
+				li
+					.center.collapsible-header.active.black.white-text
+						| Double Bass Recital
+					.center.collapsible-body.black
+						iframe(src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Foliver.hartman.98%2Fposts%2F1037213773035372&width=500', width='500', height='329', style='border:none;overflow:hidden', scrolling='no', frameborder='0', allowtransparency='true')
+				li
+					.center.collapsible-header.active.black.white-text
+						| Double Bass Concerto
+					.center.collapsible-body.black
+						iframe(src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Foliver.hartman.98%2Fposts%2F1037212233035526&width=500', width='500', height='348', style='border:none;overflow:hidden', scrolling='no', frameborder='0', allowtransparency='true')
+		br
+	.blue-grey.darken-4
+		#videos.section
+			h4.center.white-text
+				| Videos
+		.container
+			.slider
+				ul.slides
+					li
+						iframe(allowfullscreen='1', height='100%', src='https://www.youtube.com/embed/r-BZ54Z6_s8', width='100%')
+					li
+						iframe(allowfullscreen='1', height='100%', src='https://www.youtube.com/embed/6_X1e1RcW8M', width='100%')
+					li
+						iframe(allowfullscreen='1', height='100%', src='https://www.youtube.com/embed/wyK7UHZ-YL4', width='100%')
+					li
+						iframe(allowfullscreen='1', height='100%', src='https://www.youtube.com/embed/QALoVjgnpSo', width='100%')
+		br
+		#wheretofindme.section
+			h4.center.white-text
+				| Where to Find Me
+		.container
+			.card-panel.blue-grey.darken-3
+				.row
+					a.center.col.s4(href='https://www.youtube.com/channel/UCliNSScIS8qV8eMFIe058-w')
+						img(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/667296/YouTube.png')
+					a.center.col.s4(href='https://www.facebook.com/oliver.hartman.98')
+						img(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/667296/Facebook.png')
+					a.center.col.s4(href='https://www.linkedin.com/in/oliver-hartman-7ab21268')
+						img(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/667296/Linkedin.png')
+		.black.center.valign-wrapper(style='height:100px')
+			.container
+				.flow-text.white-text
+					| Thank you for Visiting!
+script(type='text/javascript').
+	$(document).ready(function(){
+	$('.parallax').parallax();
+	$('.collapsible').collapsible();
+	$('.slider').slider({full_width: true});
+	});
